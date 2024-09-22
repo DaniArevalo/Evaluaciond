@@ -12,10 +12,9 @@ Este proyecto es una aplicación CRUD desarrollada con **Nest.js**, **PostgreSQL
 - **Endpoints REST** para interactuar con los datos de empleados.
   
 ## Instalación:
-1. Clona el repositorio.
-2. Instala las dependencias con `npm install`.
-3. Configura y ejecuta los contenedores con Docker usando `docker-compose up`.
-4. Ejecuta la aplicación con `npm run start`.
+1. Instala las dependencias con `npm install`.
+2. Configura y ejecuta los contenedores con Docker usando `docker-compose up -d db pgadmin`.
+3. Ejecuta la aplicación con `npm run start`.
 
 ## Licencia:
 Este proyecto está licenciado bajo la MIT License.
