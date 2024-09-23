@@ -1,3 +1,24 @@
+# Sistema de Gestión de Empleados
+
+Este proyecto es una aplicación CRUD desarrollada con **Nest.js**, **PostgreSQL** y **Docker**, que permite gestionar empleados. La aplicación ofrece la funcionalidad para crear, leer, actualizar y eliminar registros de empleados, incluyendo información como nombre, puesto, salario, departamento y extensión telefónica.
+
+## Tecnologías utilizadas:
+- **Nest.js**: Framework de backend para Node.js.
+- **PostgreSQL**: Base de datos relacional.
+- **Docker**: Contenedorización para el despliegue de la aplicación.
+
+## Funcionalidades:
+- **Crear, leer, actualizar y eliminar** empleados.
+- **Endpoints REST** para interactuar con los datos de empleados.
+  
+## Instalación:
+1. Instala las dependencias con `npm install`.
+2. Configura y ejecuta los contenedores con Docker usando `docker-compose up -d db pgadmin`.
+3. Ejecuta la aplicación con `npm run start`.
+
+## Licencia:
+Este proyecto está licenciado bajo la MIT License.
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
